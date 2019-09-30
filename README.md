@@ -3,7 +3,7 @@ Aplicação que roda entre páginas da web em uma raspberry pi
 
 ## Como usar:
 ### Em uma nova máquina:
-Caso você esteja rodando pela primeira vez, o script funcionará em qualquer máquina que possua Chromium, Unclutter, Xdotool e Xet. 
+Caso você esteja rodando pela primeira vez, o script funcionará em qualquer máquina que possua Chromium, Unclutter, Xdotool e Xset. 
 
 Se você estiver rodando em um Raspberry Pi (como é esperado) com uma imagem do Raspbian, ou qualquer outra baseada em Debian, você não precisa intalar o Chromium nem o Xset, pois já vem de fábrica. Porém é necessário instalar o Xdotool e o Unclutter.
 
@@ -27,7 +27,7 @@ Aqui você entrará num arquivo que é chamado toda vez que a interface gráfica
 
 Nele já estão autodefinidos alguns comandos. Coloque em algum lugar no meio (arbitrariamente) o seguinte código:
 ```
-@/bin/bash /home/pi/main.shh
+@/bin/bash /home/pi/main.sh
 ```
 Sendo que a primeira parte do comando é a localização do bash, e a segunda parte é a localização para o arquivo 
 __main.sh__ (altere se necessário).
